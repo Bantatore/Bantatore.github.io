@@ -1,6 +1,6 @@
 ---
 title: French words Week 1
-layout: post
+layout: page
 author: bantatore
 permalink: /french-words-week-1/
 source-id: 1M5nsQlv8KRrZXTI7kHPnQ0Zw7JZVy-NpuBNhBUgfScE
