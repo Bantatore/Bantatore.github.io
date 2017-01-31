@@ -19,9 +19,13 @@ html {
 
 body {
 	background-image: url("http://hdqwalls.com/download/mac-osx-sierra-lu-2880x1800.jpg");
-	background-position: right top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+	
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+	
 }
 
 
