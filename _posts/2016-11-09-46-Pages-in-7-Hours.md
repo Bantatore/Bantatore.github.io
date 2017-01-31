@@ -1,5 +1,5 @@
 ---
-title: 46 Pages in 7 Hours
+title: Week 2
 layout: post
 author: bantatore
 permalink: /46-pages-in-7-hours/
