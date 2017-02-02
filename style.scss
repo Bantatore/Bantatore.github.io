@@ -117,7 +117,6 @@ strong, b {
 img {
   max-width: 100%;
 }
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -127,7 +126,6 @@ img {
   font-style: italic;
   color: $gray;
 }
-
 // Specify the color of the selection
 ::-moz-selection {
   color: $black;
@@ -159,7 +157,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
@@ -200,7 +198,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #eac67a;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
