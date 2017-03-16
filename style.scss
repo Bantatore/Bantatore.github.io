@@ -26,66 +26,77 @@
 
 
 html {
+ 
 
-  font-size: 100%;
-
+font-size: 100%;
+ 
 }
-
-
-
-
+ 
 body {
 
+background: #FFFFFF;
+ 
 
- background: #C0C0C0;
+font: 18px/1.4 $helvetica;
+ 
 
-
-  font: 18px/1.4 $helvetica;
-
-
-  color: #FFFFFF;
-
+color: #A9A9A9;
+ 
 
 }
-
-
-
+ 
 
 
 .container {
 
- margin: 0 auto;
 
- max-width: 740px;
-
- padding: 0 10px;
-
- width: 100%;
-
-}
+margin: 0 auto;
 
 
-h1, h2, h3, h4, h5, h6 {
-
-  font-family: $helveticaNeue;
-
-  color: #A9A9A9;
-
-  font-weight: bold;
+max-width: 740px;
 
 
-  line-height: 2.7;
-
-  margin: 1em 0 20px;
-
-  padding: 0;
+padding: 0 10px;
 
 
+width: 100%;
+
+ 
   @include mobile {
 
     line-height: 1.4;
 
   }
+
+
+
+}
+ 
+
+h1, h2, h3, h4, h5, h6 {
+ 
+
+font-family: $helveticaNeue;
+ 
+
+color: #A9A9A9;
+ 
+
+font-weight: bold;
+ 
+
+line-height: 1.7;
+ 
+
+margin: 1em 0 15px;
+ 
+
+padding: 0;
+ 
+
+}
+ 
+
 
 }
 
