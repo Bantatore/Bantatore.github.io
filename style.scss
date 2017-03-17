@@ -237,11 +237,6 @@ list-style-type: disc;
 }
  
 
-
-
-
- 
-
 ol {
  
 
@@ -249,11 +244,6 @@ list-style-type: decimal;
  
 
 }
- 
-
-
-
-
  
 
 ol ul, ul ol, ul ul, ol ol {
@@ -264,12 +254,6 @@ margin: 0;
 
 }
  
-
-
-
-
- 
-
 ul ul, ol ul {
  
 
@@ -277,11 +261,6 @@ list-style-type: circle;
  
 
 }
- 
-
-
-
-
  
 
 em, i {
@@ -293,11 +272,6 @@ font-style: italic;
 }
  
 
-
-
-
- 
-
 strong, b {
  
 
@@ -305,11 +279,6 @@ font-weight: bold;
  
 
 }
- 
-
-
-
-
  
 
 img {
@@ -323,9 +292,6 @@ max-width: 100%;
 
 
 
-
- 
-
 table {
  
 
@@ -338,9 +304,6 @@ table {
 }
  
 
-
-
-
  
 
 table, th, td {
@@ -352,17 +315,7 @@ table, th, td {
 background-color:#ff0000;
  
 
-
-
-
- 
-
 }
- 
-
-
-
-
  
 
 td {
@@ -379,13 +332,10 @@ td {
 
 
 
-
- 
-
 th {
  
 
-  color: white;
+  color: #ff0000;
  
 
   background: #233237;
@@ -439,7 +389,7 @@ max-width: none;
 font-style: italic;
  
 
-color: white;
+color: #ff0000;
  
 
 }
@@ -478,22 +428,17 @@ background: $lightGray;
 
 // http://nicolasgallagher.com/micro-clearfix-hack/
 
+
 .clearfix:before,
-
 .clearfix:after {
-
-    content: " ";
-
-    display: table;
-
+	content: " ";
+	display: table;
 }
 
-
 .clearfix:after {
-
-    clear: both;
-
+	clear: both;
 }
+
 
 
 
@@ -525,7 +470,7 @@ margin-bottom: 25px;
 padding: 20px 0;
  
 
-border-bottom: 1px solid white;
+border-bottom: 1px solid #000000;
  
 
 }
@@ -539,10 +484,6 @@ border-bottom: 1px solid white;
  
 
 }
- 
-
-
-
 
  
 
@@ -591,6 +532,8 @@ float: left;
  
 
 
+}
+
 
 @include mobile {
  
@@ -604,16 +547,9 @@ float: left;
    margin: 0 auto;
  
 
- }
- 
-
 }
  
 
-
-
-
- 
 
 .site-name {
  
@@ -638,14 +574,9 @@ font-size: 28px;
 
 letter-spacing: 1px;
  
-
-c
+}
  
 
-
-
-
- 
 
 .site-description {
  
@@ -659,10 +590,6 @@ color: #ffffff;
 font-size: 16px;
  
 
-
-
-
- 
 
 @include mobile {
  
@@ -697,7 +624,7 @@ font-size: 18px;
  
 
 
-
+}
 
  
 
