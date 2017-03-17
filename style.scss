@@ -59,13 +59,16 @@ padding: 0 10px;
 
 width: 100%;
  
-  @include mobile {
+ 
+}
+
+
+ @include mobile {
 
     line-height: 1.4;
 
   }
  
-}
  
 h1, h2, h3, h4, h5, h6 {
 
@@ -190,8 +193,7 @@ a {
 color: #000000
 
 
-
- ;
+}
  
 
 text-decoration: none;
