@@ -455,359 +455,175 @@ background: $lightGray;
 
 //
 
+
+
+
 .wrapper-masthead {
- 
-
 margin-bottom: 25px;
- 
-
 }
- 
+
 
 .masthead {
- 
-
 padding: 20px 0;
- 
-
-border-bottom: 1px solid #000000;
- 
-
-}
+border-bottom: 1px solid white;
 
 
- 
 @include mobile {
- 
-
-   text-align: center;
- 
-
+  text-align: center;
+}
 }
 
- 
 
 .site-avatar {
- 
-
 float: left;
- 
-
 width: 70px;
- 
-
 height: 70px;
- 
-
 margin-right: 15px;
- 
-
+	
 }
 
 
-  @include mobile {
-
-    float: none;
-
-    display: block;
-
-    margin: 0 auto;
-
-  }
+@include mobile {
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
 
 
-  img {
-
-    border-radius: 5px;
-
-  }
-
+img {
+  border-radius: 5px;
+}
 
 
 
 .site-info {
- 
-
 float: left;
- 
-
-
-}
 
 
 @include mobile {
- 
-
-   float: none;
- 
-
-   display: block;
- 
-
-   margin: 0 auto;
- 
-
+  float: none;
+  display: block;
+  margin: 0 auto;
 }
- 
+}
 
 
 .site-name {
- 
-
 margin: 0;
- 
-
 color: #eac67a;
- 
-
 cursor: pointer;
- 
-
 font-family: $helveticaNeue;
- 
-
 font-weight: 300;
- 
-
 font-size: 28px;
- 
-
 letter-spacing: 1px;
- 
-}
- 
 
+}
 
 .site-description {
- 
-
 margin: -5px 0 0 0;
- 
-
-color: #ffffff;
- 
-
+color: white;
 font-size: 16px;
- 
 
 
 @include mobile {
- 
-
-   margin: 3px 0;
- 
-
- }
- 
-
+  margin: 3px 0;
 }
- 
+	
+}
 
-
-
-
- 
 
 nav {
- 
-
 float: right;
- 
-
 margin-top: 23px; // @TODO: Vertically middle align
- 
-
 font-family: $helveticaNeue;
- 
-
 font-size: 18px;
- 
 
-
+	}
+@include mobile {
+  float: none;
+  margin-top: 9px;
+  display: block;
+  font-size: 16px;
 }
 
- 
-
-@include mobile {
- 
-
-   float: none;
- 
-
-   margin-top: 9px;
- 
-
-   display: block;
- 
-
-   font-size: 16px;
- 
-
- }
- 
-
-
-
-
- 
 
 a {
- 
-
-   margin-left: 20px;
- 
-
-   color: white;
- 
-
-   text-align: right;
- 
-
-   font-weight: 300;
- 
-
-   letter-spacing: 1px;
- 
+  margin-left: 20px;
+  color: white;
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
 
 
-
-
- 
-
-   @include mobile {
- 
-
-     margin: 0 10px;
- 
-
-     color: $blue;
- 
-
-   }
- 
-
+  @include mobile {
+    margin: 0 10px;
+    color: $blue;
+  }
 }
- 
 
 //
-
 // .main
-
 //
 
 
 .posts > .post {
-
-  padding-bottom: 2em;
-
-  border-bottom: 1px solid $lightGray;
-
+padding-bottom: 2em;
+border-bottom: 1px solid white;
 }
 
 
 .posts > .post:last-child {
-
-  padding-bottom: 1em;
-
-  border-bottom: none;
+padding-bottom: 1em;
+border-bottom: none;
 
 }
+
 
 .post {
-
-  blockquote {
-
-    margin: 1.8em .8em;
-
-    border-left: 2px solid #D3D3D3;
-
-    padding: 0.1em 1em;
-
-    color: #D3D3D3;
-
-    font-size: 22px;
-
-    font-style: italic;
-
-   }
- 
+blockquote {
+  margin: 1.8em .8em;
+  border-left: 2px solid white;
+  padding: 0.1em 1em;
+  color: white;
+  font-size: 22px;
+  font-style: italic;
+  }
  }
-
-
-  .comments {
-
-    margin-top: 10px;
-
-  }
-
-
-  .read-more {
-
-    text-transform: uppercase;
-
-    font-size: 15px;
-
-  }
-
-
-
-.wrapper-footer {
-
-  margin-top: 50px;
-
-  border-top: 1px solid #ddd;
-
-  border-bottom: 1px solid #ddd;
-
-  background-color: $lightGray;
-
+.comments {
+  margin-top: 10px;
 }
+
+
+.read-more {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+
 
 
 footer {
-  padding: 20px 0;
-
-  text-align: center;
-
-}
-
-
-table, th, td {
-
-   border: 1px solid #000000 ;
-
-}
-
-
-  table {
-
-    border-collapse: collapse;
-
-    align: middle;
-
+padding: 20px 0;
+text-align: center;
+border-bottom: 1px solid white;
 }
 
 
 table {
-
-    width: 100%;
+width:100%
+}
+table, th, td{
+border: 6px solid black;
 
 }
 
- th {
 
-    height:30px;
+th {
 
-    color:#FF5733;
+ color: white;
 
-    padding:5px;
+ backround: #FFFFFF
 
-}
+ height: 50px;
 
-th, td {
-
-    padding: 5px;
-
-    text-align: left;
-
-}
+ vertical align: middle
