@@ -465,13 +465,14 @@ margin-bottom: 25px;
 
 .masthead {
 padding: 20px 0;
-border-bottom: 1px solid white;
+border-bottom: 1px solid #FFFFFF;
 
+}
 
 @include mobile {
   text-align: center;
 }
-}
+
 
 
 .site-avatar {
@@ -499,12 +500,13 @@ img {
 .site-info {
 float: left;
 
+}
 
 @include mobile {
   float: none;
   display: block;
   margin: 0 auto;
-}
+
 }
 
 
@@ -539,6 +541,7 @@ font-family: $helveticaNeue;
 font-size: 18px;
 
 	}
+
 @include mobile {
   float: none;
   margin-top: 9px;
@@ -605,7 +608,7 @@ blockquote {
 footer {
 padding: 20px 0;
 text-align: center;
-border-bottom: 1px solid white;
+border-bottom: 1px solid #FFFFFF;
 }
 
 
@@ -620,10 +623,11 @@ border: 6px solid black;
 
 th {
 
- color: white;
+ color: #FFFFFF;
 
  backround: #FFFFFF
 
  height: 50px;
 
  vertical align: middle
+}
