@@ -465,10 +465,13 @@ background: $lightGray;
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
   width: 100% ;
+	
+}
+
  
   @include mobile {
 	text-align: center;
-  }
+  
 }
 
 .site-avatar {
@@ -483,10 +486,10 @@ background: $lightGray;
 	margin: 0 auto;
   }
 
+}
   img {
 	border-radius: 5px;
   }
-}
 
 .site-info {
   float: left;
@@ -530,6 +533,8 @@ nav {
 	display: block;
 	font-size: 16px;
   }
+	
+}
 
   a {
 	margin-left: 20px;
