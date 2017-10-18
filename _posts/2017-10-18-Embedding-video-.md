@@ -22,3 +22,4 @@ Hi guys its bantatore here and today I am going to show you how to embed your yo
 
 7. Insert link from youtube  
 
+<iframe width="854" height="480" src="https://www.youtube.com/embed/03PmfRq0dpk" frameborder="0" allowfullscreen></iframe>
