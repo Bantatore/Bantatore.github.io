@@ -507,6 +507,7 @@ background: $lightGray;
 
   @include mobile {
 	margin: 3px 0;
+	  
   }
 }
 
@@ -565,6 +566,7 @@ nav {
 	font-style: italic;
   }
 
+}
   .comments {
 	margin-top: 10px;
   }
