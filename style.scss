@@ -20,19 +20,33 @@ html {
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #A9A9A9;
 }
+
+table {
+
+	width:100%
+
+}
+
+table, th, td{
+
+	border: 1px solid #000000
+
+
+}
+
 
 .container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 20px;
-  width: 90%;
+  width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: #A9A9A9;
   font-weight: bold;
 
   line-height: 1.7;
@@ -45,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 24px;
   a {
     color: inherit;
   }
@@ -56,11 +70,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 15px;
   color: $gray;
 }
 
@@ -69,11 +83,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #984b43;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #eac67a;
   }
 }
 
@@ -115,6 +129,52 @@ img {
   max-width: none;
 }
 
+ max-width: 100%;
+}
+
+
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+
+
+table, th, td {
+  border: 1px solid white;
+	background-color:#984b43;
+
+
+
+}
+
+
+
+td {
+  vertical-align: middle;
+  padding: 10px;
+}	
+
+
+
+th {
+  color: white;
+  background: #233237;
+  height:50px;
+  vertical-align: middle;
+}
+
+
+
+div.vid {
+   width: 560px;
+   height: 340px;
+   margin: 0 auto;
+}
+
+
+
 .date {
   font-style: italic;
   color: $gray;
@@ -151,7 +211,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .masthead {
@@ -192,7 +252,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: #eac67a;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
