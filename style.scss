@@ -18,41 +18,25 @@ html {
 }
 
 body {
-  background: url("http://feelgrafix.com/data_images/out/10/839627-laser-wallpaper.jpg");
+  background: url("https://images3.alphacoders.com/675/675273.jpg");
   background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
   font: 18px/1.4 "Lucida Console", Lucida, monospace;
   color: #73839b;
 }
-table {
 
-	width:100%
-
-}
-
-table, th, td{
-
-	border: 1px solid #000000
-
-
-}
-
-
-.container {
+.container {	
   margin: 0 auto;
-  max-width: 800px;
-  padding: 0 20px;
-  div {
-    box-shadow: 10px 10px 5px 5px #D3D3D3;
-    width: 100%;
-	
-}
+  max-width: 740px;
+  padding: 0 10px;
+  width: 100%;
+ 
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #000000;
+  color: #ce952b;
   font-weight: bold;
 
   line-height: 1.7;
@@ -65,9 +49,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
   a {
-    color: #ff0000;
+    color: inherit;
   }
 }
 
@@ -76,11 +60,11 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h4 {
-  font-size: 15px;
+  font-size: 18px;
   color: $gray;
 }
 
@@ -89,11 +73,11 @@ p {
 }
 
 a {
-  color: #984b43;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #eac67a;
+    color: $blue;
   }
 }
 
@@ -135,14 +119,6 @@ img {
   max-width: none;
 }
 
-div.vid {
-   width: 560px;
-   height: 340px;
-   margin: 0 auto;
-}
-
-
-
 .date {
   font-style: italic;
   color: $gray;
@@ -179,7 +155,7 @@ div.vid {
 //
 
 .wrapper-masthead {
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 .masthead {
@@ -193,8 +169,8 @@ div.vid {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width:  100px;
+  height: 100px;
   margin-right: 15px;
 
   @include mobile {
@@ -220,7 +196,7 @@ div.vid {
 
 .site-name {
   margin: 0;
-  color: #eac67a;
+  color: #9e42f4;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -230,7 +206,7 @@ div.vid {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #c953fc;
   font-size: 16px;
 
   @include mobile {
@@ -303,34 +279,50 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #9e42f4;
 }
 
 footer {
   padding: 20px 0;
   text-align: center;
 }
-table, th, td {
-   border: 1px solid #000000 ;
-}
-
-  table {
-	border-collapse: collapse;
-	align: middle;
-}
 
 table {
-	width: 100%;
+    border-collapse: collapse;
+	 box-shadow: 10px 10px 5px grey;
+	Width:100%;
 }
- th {
-	height:30px;
-	color:#FF5733;
-	padding:5px;
+
+table, th, td {
+    border: 1px solid black;
 }
+
 th, td {
-	padding: 5px;
-	text-align: left;
+    padding: 15px;
+    text-align: left;
 }
+
+td {
+    background-color: #42c2f4;
+    color: $black;
+	font: "Comic Sans MS", cursive, sans-serif
+    
+}
+
+th {
+    background-color: #f47442;
+    color: $black;
+	font: "Arial Black", Gadget, sans-serif
+   
+}
+
+
+
+
+
+
+
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
